@@ -23,8 +23,8 @@ int main(){
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Números de Pontos Turísticos: %d\n", pontos1);
-    printf("Densidade Populacional: %.2f\n", densidade_pop1);
-    printf("PIB per Capita: %.2f\n\n", pib_per_cap1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop1);
+    printf("PIB per Capita: %.2f reais\n\n", pib_per_cap1);
 
     char estado2 = 'B';
     char codigo2[10] = "B02";
@@ -44,8 +44,8 @@ int main(){
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Números de Pontos Turísticos: %d\n", pontos2);
-    printf("Densidade Populacional: %.2f\n", densidade_pop2);
-    printf("PIB per Capita: %.2f\n\n", pib_per_cap2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop2);
+    printf("PIB per Capita: %.2f reais\n\n", pib_per_cap2);
 
 return 0;
 
