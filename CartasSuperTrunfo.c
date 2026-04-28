@@ -12,6 +12,8 @@ int main(){
     float area1 = 1521.11;
     float pib1 = 699.28;
     int pontos1 = 50;
+    float densidade_pop1 = populacao1 / area1;
+    
 
     printf("Carta 1: \n");
     printf("Estado: %c\n", estado1);
@@ -20,7 +22,8 @@ int main(){
     printf("População: %d\n", populacao1);
     printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
-    printf("Números de Pontos Turísticos: %d\n\n", pontos1);
+    printf("Números de Pontos Turísticos: %d\n", pontos1);
+    printf("Densidade Populacional: %.2f\n\n", densidade_pop1);
 
     char estado2 = 'B';
     char codigo2[10] = "B02";
