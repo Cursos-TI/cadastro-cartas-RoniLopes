@@ -10,7 +10,7 @@ int main(){
     char cidade1[20] = "São Paulo";
     int populacao1 = 12325000;
     float area1 = 1521.11;
-    float pib1 = 699280000000;
+    float pib1 = 699.28;
     int pontos1 = 50;
     float densidade_pop1 = populacao1 / area1;
     float pib_per_cap1 = pib1 / populacao1;
@@ -31,7 +31,7 @@ int main(){
     char cidade2[20] = "Rio de Janeiro";
     int populacao2 = 6748000;
     float area2 = 1200.25;
-    float pib2 = 300500000000;
+    float pib2 = 300.50;
     int pontos2 = 30;
     float densidade_pop2 = populacao2 / area2;
     float pib_per_cap2 = pib2 / populacao2;
