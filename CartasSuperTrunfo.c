@@ -13,7 +13,7 @@ int main(){
     float pib1 = 699.28;
     int pontos1 = 50;
     float densidade_pop1 = populacao1 / area1;
-    float pib_per_cap1 = pib1 / populacao1;
+    float pib_per_cap1 = (pib1 * 1000000000) / populacao1;
  
     printf("Carta 1: \n");
     printf("Estado: %c\n", estado1);
@@ -34,7 +34,7 @@ int main(){
     float pib2 = 300.50;
     int pontos2 = 30;
     float densidade_pop2 = populacao2 / area2;
-    float pib_per_cap2 = pib2 / populacao2;
+    float pib_per_cap2 = (pib2 * 1000000000) / populacao2;
     
     printf("Carta 2: \n");
     printf("Estado: %c\n", estado2);
