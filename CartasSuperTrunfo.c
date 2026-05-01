@@ -14,6 +14,7 @@ int main(){
     int pontos1 = 50;
     float densidade_pop1 = populacao1 / area1;
     float pib_per_cap1 = (pib1 * 1000000000) / populacao1;
+    float superPoder1 = populacao1 + area1 + pib1 + pontos1 + (1 / densidade_pop1) + pib_per_cap1;
  
     printf("Carta 1: \n");
     printf("Estado: %c\n", estado1);
@@ -24,7 +25,8 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Números de Pontos Turísticos: %d\n", pontos1);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop1);
-    printf("PIB per Capita: %.2f reais\n\n", pib_per_cap1);
+    printf("PIB per Capita: %.2f reais\n", pib_per_cap1);
+    printf("Super Poder: %.2f\n\n", superPoder1);
 
     char estado2 = 'B';
     char codigo2[10] = "B02";
@@ -35,6 +37,7 @@ int main(){
     int pontos2 = 30;
     float densidade_pop2 = populacao2 / area2;
     float pib_per_cap2 = (pib2 * 1000000000) / populacao2;
+    float superPoder2 = populacao2 + area2 + pib2 + pontos2 + (1 / densidade_pop2) + pib_per_cap2;
     
     printf("Carta 2: \n");
     printf("Estado: %c\n", estado2);
@@ -45,7 +48,8 @@ int main(){
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Números de Pontos Turísticos: %d\n", pontos2);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade_pop2);
-    printf("PIB per Capita: %.2f reais\n\n", pib_per_cap2);
+    printf("PIB per Capita: %.2f reais\n", pib_per_cap2);
+    printf("Super Poder: %.2f\n\n", superPoder2);
 
 return 0;
 
