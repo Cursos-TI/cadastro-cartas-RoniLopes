@@ -60,6 +60,16 @@ int main(){
     printf("PIB per Capita: %d\n", pib_per_cap1 > pib_per_cap2);
     printf("Super Poder: %d\n\n", superPoder1 > superPoder2);
 
+    printf("Comparação de Cartas (Atributo: População): \n");
+    printf("Carta 1 - Sao Paulo (SP): 12.325.000\n");
+    printf("Carta 2 - Rio de Janeiro (RJ): 6.748.000\n");
+        
+    if(populacao1 > populacao2) {
+    printf("Carta 1 (São Paulo) Venceu!\n\n");
+    } else {
+    printf("Carta 2 (Rio de Janeiro) Venceu!\n\n"); 
+    }
+
 return 0;
 
 } 
