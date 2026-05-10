@@ -15,6 +15,7 @@ int main(){
     float densidade_pop1 = populacao1 / area1;
     float pib_per_cap1 = (pib1 * 1000000000) / populacao1;
     float superPoder1 = populacao1 + area1 + pib1 + pontos1 + (1 / densidade_pop1) + pib_per_cap1;
+    int escolhaAtributo;
  
     printf("Carta 1: \n");
     printf("Estado: %c\n", estado1);
