@@ -56,13 +56,13 @@ int main(){
     printf("População: %d\n", populacao1 > populacao2);
     printf("Área: %d\n", area1 > area2);
     printf("PIB: %d\n", pib1 > pib2);
-    printf("Pontos Turísticos: %d\n", pontos1 > pontos2);
+    printf("Números de Pontos Turísticos: %d\n", pontos1 > pontos2);
     printf("Densidade Populacional: %d\n", densidade_pop1 < densidade_pop2);
     printf("PIB per Capita: %d\n", pib_per_cap1 > pib_per_cap2);
     printf("Super Poder: %d\n\n", superPoder1 > superPoder2);
 
     printf("Comparação de Cartas (Atributo: População): \n");
-    printf("Carta 1 - Sao Paulo (SP): 12.325.000\n");
+    printf("Carta 1 - São Paulo (SP): 12.325.000\n");
     printf("Carta 2 - Rio de Janeiro (RJ): 6.748.000\n");
         
     if(populacao1 > populacao2) {
@@ -71,13 +71,13 @@ int main(){
     printf("Carta 2 (Rio de Janeiro) Venceu!\n\n"); 
     }
 
-    printf("*** Comparacao de Cartas por Atributo ***\n");
+    printf("*** Comparação de Cartas por Atributo ***\n");
         printf("*** São Paulo x Rio de Janeiro ***\n");
         printf("Escolha uma opcao:\n");
-        printf("1. Populacao\n");
+        printf("1. População\n");
         printf("2. Area\n");
         printf("3. PIB\n");
-        printf("4. Numeros de Pontos Turisticos\n");
+        printf("4. Números de Pontos Turísticos\n");
         printf("5. Densidade Populacional\n");
         printf("6. PIB per Capita\n");
         printf("7. Super Poder\n");
@@ -87,7 +87,7 @@ int main(){
         switch (escolhaAtributo)
         {
         case 1:
-            printf("\nPopulacao\n");
+            printf("\nPopulação\n");
             if (populacao1 > populacao2) {
                 printf("São Paulo - População: %lu\n", populacao1); 
                 printf("Rio de Janeiro - População: %lu\n", populacao2);
@@ -102,14 +102,14 @@ int main(){
             }
             break;
         case 2:
-            printf("\nArea\n");
+            printf("\nÁrea\n");
             if (area1 > area2) {
-                printf("São Paulo - Area: %.2f\n", area1); 
-                printf("Rio de Janeiro - Area: %.2f\n", area2);
+                printf("São Paulo - Área: %.2f\n", area1); 
+                printf("Rio de Janeiro - Área: %.2f\n", area2);
                 printf("São Paulo Venceu!!!\n");
             } else if (area1 < area2) {
-                printf("São Paulo - Area: %.2f\n", area1); 
-                printf("Rio de Janeiro - Area: %.2f\n", area2);
+                printf("São Paulo - Área: %.2f\n", area1); 
+                printf("Rio de Janeiro - Área: %.2f\n", area2);
                 printf("Rio de Janeiro Venceu!!!\n"); 
             }
             else {
@@ -132,14 +132,14 @@ int main(){
             }
             break;
         case 4:
-            printf("\nNumeros de Pontos Turisticos\n");
+            printf("\nNúmeros de Pontos Turísticos\n");
             if (pontos1 > pontos2) {
-                printf("São Paulo - Numeros de Pontos Turistico: %d\n", pontos1); 
-                printf("Rio de Janeiro - Numeros de Pontos Turistico: %d\n", pontos2);
+                printf("São Paulo - Números de Pontos Turísticos: %d\n", pontos1); 
+                printf("Rio de Janeiro - Números de Pontos Turísticos: %d\n", pontos2);
                 printf("São Paulo Venceu!!!\n");
             } else if (pontos1 < pontos2) {
-                printf("São Paulo - Numeros de Pontos Turistico: %d\n", pontos1); 
-                printf("Rio de Janeiro - Numeros de Pontos Turistico: %d\n", pontos2);
+                printf("São Paulo - Números de Pontos Turísticos: %d\n", pontos1); 
+                printf("Rio de Janeiro - Números de Pontos Turísticos: %d\n", pontos2);
                 printf("Rio de Janeiro Venceu!!!\n"); 
             }
             else {
@@ -192,7 +192,7 @@ int main(){
             }
             break;
             default:
-            printf("Opcao invalida\n");
+            printf("Opção inválida\n");
             break;
         }
 
